@@ -50,7 +50,7 @@ const Porject1 = () => {
               
     
             </p>
-            <p> Then, I use the Pandas library in Python and Mage to transform the data and remove any duplicate entries. then transfer the data to BigQuery. <br/>
+            <p> I utilize the Pandas library in Python along with Mage to preprocess the data, removing duplicate entries, before transferring it to BigQuery for further analysis. <br/>
             <div style={{  display: "flex",justifycontent: "center",margin: "5px"}}>
             <br/>
             <img   src={ETL} alt="JavaScript Developer Name, Web Developer Name" style={{ width: '550px'}} />
