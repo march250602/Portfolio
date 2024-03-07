@@ -1,73 +1,95 @@
-import { useEffect, useState } from 'react'
+import {  useState } from 'react'
+import AWS from '../../assets/images/aws.svg';
+import My_Image from '../../assets/images/Bitkub.png'
+import Airflow from '../../assets/images/wordmark_1.svg'
+import Dashborad from '../../assets/images/Dashboard.png'
+import dataset from '../../assets/images/dataset.png'
+import ETL from '../../assets/images/ETL3.png'
+import ETL2 from '../../assets/images/ETL4.png'
+import AmazonEC2 from '../../assets/images/aws-ec2.svg';
+import AmazonS3 from '../../assets/images/amazon-s3-svgrepo-com.svg';
 import {
-  faAngular,
-  faCss3,
-  faGitAlt,
-  faHtml5,
-  faJsSquare,
-  faReact,
+  faPython
+ 
 } from '@fortawesome/free-brands-svg-icons'
 import Loader from 'react-loaders'
 import AnimatedLetters from '../AnimatedLetters'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import './index.scss'
-const Porject1 = () => {
+const Porject2 = () => {
     const [letterClass, setLetterClass] = useState('text-animate')
   
     
     return (
       <>
+    <div className='content'>
         <div className="container about-page">
-          <div className="text-zone">
+          <div className="text-zone" style={{ width: '800px'}} >
             <h1>
               <AnimatedLetters
                 letterClass={letterClass}
-                strArray={['E', 'v', 'e', 'n', 't', ' ', 'W', 'e','b','s','i','t','e']}
+                strArray={['B', 'i', 't', 'K', 'u', 'b', ' ', 'E','T','L']}
                 idx={15}
               />
             </h1>
             <p>
-              I'm a very ambitious front-end developer looking for a role in an
-              established IT company with the opportunity to work with the latest
-              technologies on challenging and diverse projects.
+            The goal of this project is to enhance my ETL data pipeline skills and improve knowledge of <br/>
+           1) Programming Language -> Python<br/>
+            2)Data pipeline tool -> Apache Airflow<br/>
+            3) API -> BitKub API<br/>
+            4) AWS Platform<br/>
+
+-AWS EC2<br/>
+-AWS S3
+<br/>
+           <br/> **FYI: source code om My Github <a href="https://github.com/march250602/Bitkub-Crypto-currency-enchange-ETL" style={{ color: '#daec19 '}} > => Source code</a> **
             </p>
             <p align="LEFT">
-              I'm quiet confident, naturally curious, and perpetually working on
-              improving my chops one design problem at a time.
+            <br/>
+            <img  src={My_Image} alt="JavaScript Developer Name, Web Developer Name" style={{ width: '800px'}} />
             </p>
-            <p>
-              If I need to define myself in one sentence that would be a family
-              person, father of a beautiful daughter, a sports fanatic,
-              photography enthusiast, and tech-obsessed!!!
-            </p>
+            <br/>
+  
+            <p> For this project, I use the Pandas and Json library in Python to get data from API and trandsform data to dataframe, then store in to AWS S3 <br/>
+            <div style={{  display: "flex",justifycontent: "center",margin: "5px"}}>
+            <br/>
+            <img   src={ETL} alt="JavaScript Developer Name, Web Developer Name" style={{ width: '550px'}} />
+            <img  src={ETL2} alt="JavaScript Developer Name, Web Developer Name" style={{ width: '550px'}} />
+           
+            </div>
+             </p>
+            
           </div>
   
-          <div className="stage-cube-cont">
+          <div className="stage-cube-cont" align="RIGHT">
             <div className="cubespinner">
               <div className="face1">
-                <FontAwesomeIcon icon={faAngular} color="#DD0031" />
+             <FontAwesomeIcon icon={faPython} color="#1176ce" />
               </div>
               <div className="face2">
-                <FontAwesomeIcon icon={faHtml5} color="#F06529" />
+              <img src={AmazonEC2} alt="Architecture Amazon EC2" />
               </div>
               <div className="face3">
-                <FontAwesomeIcon icon={faCss3} color="#28A4D9" />
+              <img src={AmazonS3} />
               </div>
               <div className="face4">
-                <FontAwesomeIcon icon={faReact} color="#5ED4F4" />
+                <FontAwesomeIcon icon={faPython} color="#5ED4F4" />
               </div>
               <div className="face5">
-                <FontAwesomeIcon icon={faJsSquare} color="#EFD81D" />
+              <img src={AWS} style={{  width: "200px"}} />
               </div>
               <div className="face6">
-                <FontAwesomeIcon icon={faGitAlt} color="#EC4D28" />
+              <img src={Airflow} style={{  width: "200px"}} />
               </div>
-            </div>
+            </div> 
+            
+
           </div>
+        </div>
         </div>
         <Loader type="pacman" />
       </>
     )
 }
 
-export default Porject1
+export default Porject2

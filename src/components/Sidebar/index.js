@@ -50,22 +50,9 @@ const Sidebar = () => {
           to="/project2"
           onClick={() => setShowNav(false)}
         >
-          <FontAwesomeIcon icon={faSuitcase} color="#4d4d4e" />
+          <FontAwesomeIcon icon={faPython} color="#4d4d4e" />
         </NavLink>
-        <NavLink
-          activeclassname="active"
-          className="contact-link"
-          to="/contact"
-          onClick={() => setShowNav(false)}
-        >
-          <FontAwesomeIcon icon={faEnvelope} color="#4d4d4e" />
-        </NavLink>
-        <FontAwesomeIcon 
-          onClick={() => setShowNav(false)}
-          icon={faClose}
-          color="#ffd700"
-          size="3x"
-          className='close-icon' />
+       
       </nav>
       <ul>
         <li>

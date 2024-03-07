@@ -10,9 +10,11 @@
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
     "animate.css": "^4.1.1",
+    "aws-icons": "^2.0.0",
     "gsap-trial": "^3.12.5",
     "loaders.css": "^0.1.2",
     "react": "^18.2.0",
+    "react-aws-icons": "^1.2.1",
     "react-dom": "^18.2.0",
     "react-leaflet": "^4.2.1",
     "react-loaders": "^3.0.1",
@@ -46,6 +48,7 @@
     ]
   },
   "devDependencies": {
+    "@iconify/react": "^4.1.1",
     "gh-pages": "^6.1.1"
   }
 }

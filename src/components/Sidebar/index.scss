@@ -2,7 +2,7 @@
   background: #181818;
   width: 60px;
   height: 100%;
-  position: absolute;
+  position: fixed;
   top: 0;
   z-index: 3;
   min-height: 500px;
@@ -187,4 +187,7 @@
         display: block;
      }
   }
+}
+.sticky+.content {
+  padding-top: 60px;
 }
