@@ -13,7 +13,7 @@ const Layout = () => {
         <span className="tags bottom-tags">
           
           <br />
-          <span className="bottom-tag-html">Elsa's Portfolio</span>
+          <span className="bottom-tag-html"></span>
         </span>
       </div>
     </div>
