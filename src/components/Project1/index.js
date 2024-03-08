@@ -41,13 +41,14 @@ const Porject1 = () => {
             </p>
             <br/><br/>
             <p>
-              <h2>Dataset & Data Model </h2> <br/>
+              <h2>Dataset</h2> <br/>
               As you can see  in the image below, 
               The dataset is large and complex, making it challenging to analyze effectively.<br/>
           To address  this, I need to create a data model and extract the essential information.
               <img  src={dataset} alt="JavaScript Developer Name, Web Developer Name" style={{ width: '800px'}} />
               <br/><br/> 
                  <div className="tex-describe" style={{ left: '10%',top: '50%',width: '70%',maxheight: '90%'}}>
+                  <h2>Data Model</h2>
               <h3> Fact Table </h3> 
 <p >This table serves as the central repository for all relevant information about taxi trips.
 It includes foreign keys that link to the various dimension tables to provide additional context and details about each trip.<br/>
