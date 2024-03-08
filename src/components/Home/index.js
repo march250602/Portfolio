@@ -56,7 +56,7 @@ const Home = () => {
               idx={22}
             />
           </h1>
-          <h2>Data Engineer / Python / SQL / ETL</h2>
+          <h2>Data Engineer / Python / SQL / ETL / Linux /AWS</h2>
           <h2>
           <FontAwesomeIcon icon={faEnvelope} />: Elsa.Pawanja@georgebrown.ca
           </h2>
