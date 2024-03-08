@@ -10,7 +10,7 @@ const Logo = () => {
   return (
     <div className="stage-cube-cont">
     <div className="container about-page">
-    <div className="text-zone" style={{ width: '500px'}}>
+    <div className="text-zone" style={{ left: '10%',top: '50%',width: '70%',maxheight: '90%'}}>
     <h1>
             <AnimatedLetters
               letterClass={letterClass}
