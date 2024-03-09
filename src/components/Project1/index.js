@@ -87,8 +87,8 @@ Stores data related to the distance traveled for each trip.<br/>
             <p> I utilize the Pandas library in Python along with Mage to preprocess the data, removing duplicate entries, before transferring it to BigQuery for further analysis. <br/>
             <div style={{  display: "flex",justifycontent: "center",margin: "5px"}}>
             <br/>
-            <img   src={ETL} alt="JavaScript Developer Name, Web Developer Name" style={{ width: '550px'}} />
-            <img  src={ETL2} alt="JavaScript Developer Name, Web Developer Name" style={{ width: '550px'}} />
+            <img   src={ETL} alt="JavaScript Developer Name, Web Developer Name" style={{ width: '500px'}} />
+            <img  src={ETL2} alt="JavaScript Developer Name, Web Developer Name" style={{ width: '500px'}} />
            
             </div>
              </p>
