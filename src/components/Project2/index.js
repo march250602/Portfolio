@@ -53,8 +53,8 @@ const Porject2 = () => {
             <p> For this project, I use the Pandas and Json library in Python to get data from API and trandsform data to dataframe, then store in to AWS S3 <br/>
             <div style={{  display: "flex",justifycontent: "center",margin: "5px"}}>
             <br/>
-            <img   src={ETL} alt="JavaScript Developer Name, Web Developer Name" style={{ width: '550px'}} />
-            <img  src={ETL2} alt="JavaScript Developer Name, Web Developer Name" style={{ width: '550px'}} />
+            <img   src={ETL} alt="JavaScript Developer Name, Web Developer Name" style={{ width: '500px'}} />
+            <img  src={ETL2} alt="JavaScript Developer Name, Web Developer Name" style={{ width: '500px'}} />
            
             </div>
              </p>
