@@ -55,26 +55,26 @@ It includes foreign keys that link to the various dimension tables to provide ad
 </p>
 <h3> Datetime_Dim Table</h3>
 
-Stores date and time-related information for each taxi trip, such as pick-up and drop-off times.<br/>
+This table stores date and time-related information for each taxi trip, such as pick-up and drop-off times.<br/>
 It includes attributes like date, day, month, year, hour and weekday.<br/>
 <h3>Pickup_Location_Dim Table</h3>
 
-Contains details about the pick-up locations, such as zones and location IDs.<br/>
+This table contains details about the pick-up locations, such as zones and location IDs.<br/>
 <h3>Dropoff_Location_Dim Table</h3>
 
-Similar to the pickup location dimension but for drop-off locations.<br/>
+This table is similar to the pickup location dimension but for drop-off locations.<br/>
 <h3>Passenger_Count_Dim Table</h3>
 
-Stores information about the number of passengers for each trip.<br/>
+This table stores information about the number of passengers for each trip.<br/>
 It includes attributes like passenger count ranges or special passenger types.<br/>
 <h3>Rate_Code_Dim Table</h3>
 
-Stores details about the rate codes applied to each taxi trip.<br/>
+This table stores details about the rate codes applied to each taxi trip.<br/>
 
 <h3>Payment_Type_Dim Table</h3>
 
-Contains information about the payment types used for taxi trips.<br/>
-This include cash, credit card, vouchers, etc.<br/>
+This table contains information about the payment types used for taxi trips.<br/>
+This includes cash, credit card, vouchers, etc.<br/>
 <h3>Trip_Distance_Dime Table</h3>
 
 Stores data related to the distance traveled for each trip.<br/>
